@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/mroli/IdeaProjects/CiviCRM/src/test/java/PomTests/PomLoginTest.java">
+        <classes>
+            <class name="PomTests.PomLoginTest">
+                <methods>
+                    <include name="clickOnRegisterButton"/>
+                    <include name="sendUserName"/>
+                    <include name="sendUserPassword"/>
+                    <include name="clickSignIn"/>
+                    <include name="mouseHover"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
